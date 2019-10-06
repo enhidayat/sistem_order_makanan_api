@@ -147,16 +147,7 @@ if( !empty( $_POST['choice'] ) && is_array( $_POST['choice'] ) )
 
 
 
-	<!-- hapusssssssssssss -->
-
-	assalamu'alaikum 
-	#ask  #checkbox_array 
-	selamat siang semuanya, saya punya inputan checkbox  yg  menampung array ketika di run/submit, inputan dari checkbox tidak ada terseleksi.mohon pencerahanya.. terimakasih
-
-	[ask]
-	permisi semuanya mau tanya . saya sedang membuat daftar menu makanan untuk membuat pesanan  yg nantinya akan di input melalui checkbox . checkbox tersebut mengambil daftar menu  dari table food_menu . di table tersebut ada field status kalo ready checkbox bisa di checked kalo out of stok maka terdisable checkboxnya sampai sini alhamdulillah sudah berhasil . kemudian pada viewsnya yg tadi menampilkan daftar menu saya tambahkan inputan untuk quantity nya biar nanti bisa pesan menu apa dan jumlanya berapa dan total harganya berapa (harga dan nama makanan bersal dari tabel sedangkan quantity dr inputan html). rencana  nilainya akan dijadikan array kemudian di insert ke tbel pesanan  nah masalahnya ketika saya baru mau print ke layar data yg saya checklist tidak terselect jd arraynya kosong. saya sudah coba cari referensi di stackoverflow dan website lain tp contohnya inputan cuma html sedangkan kasus saya inputanya dr database(nama makanan dan harga satuan ) dan html (quantity) . analisa saya kemunkinan salah  penulisan di inputan agar jd array . mohon bantunya ya temen" sudah beberapa hari belum tembus.. terimakasih
-
-	<!-- hapuss -->
+	
 
 	<form action="<?= base_url('pelayan'); ?>" method="post"> 
 		<!-- <?= form_open_multipart('pelayan') ?>  -->
